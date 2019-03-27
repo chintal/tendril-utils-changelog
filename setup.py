@@ -15,7 +15,7 @@ with open('README.rst') as readme_file:
 
 requirements = [
     'arrow',
-    'tendril-utils-files>=0.1.1',
+    'tendril-utils-markdown>=0.1.1',
 ]
 
 test_requirements = [
@@ -24,7 +24,7 @@ test_requirements = [
 
 setup(
     name='tendril-utils-changelog',
-    version='0.1.1',
+    version='0.1.2',
     description="Changelog parser for tendril",
     long_description=readme,
     author="Chintalagiri Shashank",
