@@ -30,7 +30,7 @@ def read(fname):
 
 core_dependencies = [
     'arrow',
-    'tendril-utils-markdown>=0.1.1',
+    'tendril-utils-markdown>=0.1.2',
 ]
 
 install_requires = core_dependencies + ['wheel']
